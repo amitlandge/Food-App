@@ -1,0 +1,38 @@
+.food {
+  width: 25%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c8d73;
+  border-radius: 5px;
+  color: aliceblue;
+  box-shadow: 0px 2px 10px gray;
+}
+
+.food h1 {
+  font-weight: 500;
+  margin: 4% 0%;
+  padding: 0%;
+  letter-spacing: 1px;
+  font-size: 5vmin;
+}
+.image img {
+  width: 100%;
+  object-fit: cover;
+  margin: 0%;
+}
+.price > span {
+  margin: 20px;
+
+  font-weight: 800;
+  padding: 5px 15px;
+  background-color: #b4161b;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .food {
+    width: 50%;
+  }
+}

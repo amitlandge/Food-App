@@ -1,0 +1,18 @@
+.container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container h1{
+    letter-spacing: 1px;
+    font-size: 7vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(28, 82, 28);
+}
+.container p{
+    width: 70%;
+    text-align: center;
+}

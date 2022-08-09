@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(48, 133, 207); */
+}
+.amount {
+  display: flex;
+ 
+  border-radius: 5px;
+  padding: 10px;
+}
+.amount label{
+    margin-right: 10px;
+}
+.btn{
+    padding: 7px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1.4px solid white;
+    background: transparent;
+    color: aliceblue;
+
+}
+.btn:hover{
+  background-color: #175f4e;
+}
